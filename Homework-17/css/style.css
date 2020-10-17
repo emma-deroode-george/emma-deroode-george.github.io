@@ -1,3 +1,12 @@
+*{
+    /*background-image: url(../images/watercolor.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    background-color: moccasin;
+    font-family: "Open Sans";
+}
+
 .inline-block{
     display: inline-block;
     vertical-align: top;
@@ -30,7 +39,6 @@ nav.inline-block ul li{
 .heroImg{
     height: 550px;
     padding: 25px;
-    background-color: cornflowerblue;
 }
 .content{
     width: 500px;
@@ -45,6 +53,31 @@ footer ul li{
     margin: 0px;
     margin-right: 50px;
 }
-div.content button {
-    background-color: white;
-}
+:root {
+    --background: #E5FFB3;
+    --background-accent: #DBF8A3;
+    --background-accent-2: #BDE66E;
+    --light: #92DE34;
+    --dark: #69BC22;
+    --text: #025600;
+  }
+
+  button {
+    display: block;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: var(--light);
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text);
+    background-size: 100% 100%;
+    box-shadow: 0 0 0 7px var(--light) inset;
+    margin-bottom: 15px;
+    text-align: center;
+    position: absolute;
+    margin-left: 150px;
+  }

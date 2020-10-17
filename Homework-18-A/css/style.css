@@ -1,0 +1,19 @@
+*{background-color: moccasin;
+    font-family: "Open Sans";}
+
+.mySkills{
+    text-align: center;
+}
+
+.flexContainer{
+    display: flex;
+    width: 33%;
+    text-align: center;
+    margin-left: 250px;
+}
+
+img{
+    width: 300px;
+    height: auto;
+    padding: 30px;
+}
